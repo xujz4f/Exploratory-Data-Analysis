@@ -1,4 +1,4 @@
-#Load the data
+#   Load the data 
 data<-read.table("C:/Users/Jiadi/Desktop/CourseraDataScience/exploredata/week1/household_power_consumption.txt",header=TRUE, sep=";", na.strings = "?", colClasses = c('character','character','numeric','numeric','numeric','numeric','numeric','numeric','numeric'))
 
 ## Format date to Type Date
